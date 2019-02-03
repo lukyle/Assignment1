@@ -1,0 +1,61 @@
+a)
+Enumerating objects: 11, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 860 bytes | 430.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/lukyle/Assignment1.git
+   3d373c9..e0835d7  master -> master
+Kyles-MacBook-Air:Assignment1 kylelu$ 
+
+b)
+git rev-list --all --count
+
+c)
+Thu Jan 10 16:45:38 2019
+git log .gitignore
+
+d)
+Branches are used to implement new features or to debug an error without directly changing the 
+original code in the master branch. They allow a developer to program and test their code without
+risking overriding the previous code. Branches also allow different teams/teammembers to work on different
+parts/features of the project without interfering with each other and have a more organized approach to project organization.
+
+e)
+git log lists the history of a file beyond renames, but git status shows the working tree status. Essentially, git log shows all previous commits whereas git status only displays the staging area of files ready or not ready to commit
+(based on whether they are added or not). 
+
+f)
+git log --follow Weapon.h
+
+g)
+git log --grep=file
+
+h)
+-Inheritance is a concept in Object oriented programming that allows an object/class to acquire all the properties and attributes of its parent object/class. Essentially, the developer can create classes built upon other classes (say Car class built upon Vehicle class).
+-Polymorphism says that objects are processed differently based on their type. Essentially, one thing may have many meanings. There are two types of polymorphism: compile time and run time polymorphism. 
+-Encapsulation seprates different pieces of code from each other; it binds code to its respective part. It allows protection of a class's data without interference from others. An example could be a wheel and its internal components (it can't be accessed by a headlight).
+i)
+In Dictator and Lieutenants workflow, two lieutenants first review the developers' pushes. After the lieutenants review the developers' code, a single dictator reviews it. However, in Integration Manager workflow, everyone can pull from the central repository (but cant push to it). They push to their respective public repository which is then reviewed/resolved in the integration manager. Only after the integration managers' review can it be pushed to the central repository. Basically, Dictator and Lieutenants workflow requires two different steps (lieutenants and then dictator) whereas Integration Manager workflow only is looked at by one other person besides the developer.
+
+j)
+Because the Dictator and Lieutenants workflow has more people to review the developers' code, it would be more time efficient to use it for a larger team. There would be more than one person to review all the developers' code instead of just one dictator (in Dictator and Lieutenants workflow).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
