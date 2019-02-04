@@ -44,7 +44,8 @@ j)
 Because the Dictator and Lieutenants workflow has more people to review the developers' code, it would be more time efficient to use it for a larger team. There would be more than one person to review all the developers' code instead of just one dictator (in Dictator and Lieutenants workflow).
 
 
-
+5.
+The RoleGame prototype is using both of these OOP concepts. It is using polymorphism as shown in the hit method for the various weapon classes. Although there is a single hit function, all the different weapon classes can implement their own verions of the hit function based on the weapon's stats. There is no use to create a HammerHit function, a RandomCrazySwordHit function, etc. because a single hit function can be used for different classes of weapons. The prototype also uses encapsulation as it binds code to its classes and hides it from public view. For example, the StarCannon attributes cannot be viewed or accessed by the CommonSword class. 
 
 
 
