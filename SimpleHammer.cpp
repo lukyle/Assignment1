@@ -12,7 +12,7 @@ double SimpleHammer::hit(double armor) {
     if(armor < 30){
     	damage = hitPoints - (armor * 0); // armor is totally ignored
     }
-
+    damage = hitPoints - armor;
     if (damage < 0) {
         return 0;
     }
