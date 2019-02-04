@@ -16,7 +16,7 @@
  */
 class CrazyRandomSword : public Weapon {
 public:
-
+	srand(time(0));
     CrazyRandomSword() : Weapon("Crazy Random Sword", rand() % 94 + 7) //Calls Weapon(name, hitpoints) constructor with values Simple Hammer and random number from 7-100
     {
     }
